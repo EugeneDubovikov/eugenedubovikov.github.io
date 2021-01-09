@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="utf-8"/>
     <style>
         body {
             margin: 0;
@@ -11,13 +11,15 @@
         body::-webkit-scrollbar {
             display: none;
         }
+        #html-input-element:focus {
+          outline: none;
+        }
     </style>
-    <title>Canvas</title>
-</head>
-<body>
+    <title>Canvas demo</title>
+  <script defer src="script.js"></script></head>
+  <body>
     <canvas id="canvas" width="1880" height="1000">
         Canvas is not supported
     </canvas>
-    <script src="script.js?ver=1.01"></script>
-</body>
+  </body>
 </html>
